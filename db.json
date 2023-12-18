@@ -27,17 +27,6 @@
       "experience": "4",
       "salary": "4000",
       "id": 1
-    },
-    {
-      "name": "bacon",
-      "company": "meta",
-      "email": "bacon@gmail.com",
-      "birth": "2023-12-18T03:00:00.000Z",
-      "gender": "Male",
-      "education": "Basic",
-      "experience": "4",
-      "salary": "2300",
-      "id": 2
     }
   ]
 }
