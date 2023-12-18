@@ -27,6 +27,17 @@
       "experience": "4",
       "salary": "4000",
       "id": 1
+    },
+    {
+      "name": "ble",
+      "company": "meta",
+      "email": "meta@gmail.com",
+      "birth": "2023-12-19T03:00:00.000Z",
+      "gender": " Male",
+      "education": "Diploma",
+      "experience": "2",
+      "salary": "3222",
+      "id": 2
     }
   ]
 }

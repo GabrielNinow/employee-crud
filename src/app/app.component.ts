@@ -32,7 +32,14 @@ export class AppComponent implements OnInit {
   constructor(private _dialog: MatDialog, private _empService: EmployeeService) { }
 
   openAddEditEmpForm() {
-    this._dialog.open(EmpAddEditComponent);
+    const dialogRef = this._dialog.open(EmpAddEditComponent);
+    dialogRef.afterClosed().subscribe({
+      next: (val) => {
+        if (val) {
+          this.getEmployeeList()
+        }
+      }
+    })
   }
 
   ngOnInit(): void {
